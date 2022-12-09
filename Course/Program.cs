@@ -16,6 +16,8 @@ namespace Course
             float n5 = 4.5f;
             double n6 = 4.5;
             string nome = "Maria Green";
+            object obj1 = "Alex Brown";
+            object obj2 = 4.5f;
 
             n1++; //extrapola o limite e vai pra 0
 
@@ -29,6 +31,9 @@ namespace Course
             Console.WriteLine(n4);
             Console.WriteLine(n5);
             Console.WriteLine(n6);
+            Console.WriteLine(obj1);
+            Console.WriteLine(obj2);
+
             Console.ReadLine();
         }
     }
