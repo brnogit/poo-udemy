@@ -6,9 +6,11 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            sbyte x = 100;
+            byte n1 = 255;
 
-            Console.WriteLine(x);
+            n1++; //extrapola o limite e vai pra 0
+
+            Console.WriteLine(n1);
             Console.ReadLine();
         }
     }
