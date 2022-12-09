@@ -18,6 +18,10 @@ namespace Course
             string nome = "Maria Green";
             object obj1 = "Alex Brown";
             object obj2 = 4.5f;
+            int m1 = int.MinValue;
+            int m2 = int.MaxValue;
+            sbyte m3 = sbyte.MinValue;
+            decimal m4 = decimal.MaxValue;
 
             n1++; //extrapola o limite e vai pra 0
 
@@ -33,6 +37,11 @@ namespace Course
             Console.WriteLine(n6);
             Console.WriteLine(obj1);
             Console.WriteLine(obj2);
+
+            Console.WriteLine(m1);
+            Console.WriteLine(m2);
+            Console.WriteLine(m3);
+            Console.WriteLine(m4);
 
             Console.ReadLine();
         }
