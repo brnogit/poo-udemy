@@ -6,16 +6,17 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            int x = 10;
-            Console.WriteLine("Bom dia");
+            Console.WriteLine("Entre com um número inteiro:");
+            int x = int.Parse(Console.ReadLine());
 
-            if(x > 5 )
+            if(x % 2 == 0)
             {
-                Console.WriteLine("Boa tarde");
+                Console.WriteLine("Par!");
             }
-            
-            Console.WriteLine("Boa noite");
-
+            else
+            {
+                Console.WriteLine("Impar");
+            }
             Console.ReadLine();
         }
     }
